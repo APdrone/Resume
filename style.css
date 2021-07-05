@@ -78,21 +78,28 @@
   margin-left: 25px;
 }
 
-/* for logos-utitlity */
+.logo__div {
+  position: relative;
+  /* width: 47px; */
+  border: 4px dotted var(--primary-color);
+  border-radius: 50%;
+  padding: 0;
+  margin-right: 8px;
+}
+
+/* for logos-utilities */
 .logo__style {
   color: var(--secondary-color);
   background-color: var(--primary-color);
   border-radius: 50%;
-  /* border: 2px dotted var(--primary-color); */
-  margin-right: 8px;
 }
+
+
 
 .logo__style_skills {
   color: var(--primary-color);
   background-color: var(--secondary-color);
   border-radius: 50%;
-  /* border: 2px dotted var(--primary-color); */
-  margin-right: 8px;
 }
 
 /* for skills */
@@ -102,26 +109,9 @@
   background-color: var(--secondary-color);
   border-radius: 50%;
   padding: 5px;
-  margin-right: 8px;
-  /* border: 4px dotted var(--primary-color); */
-  /* position: relative; */
 }
 
-/* .logo__main {
-  position: relative;
-} */
 
-/* .logo__main::before {
-  content: "";
-  position: absolute;
-  height: 30px;
-  width: 30px;
-  top: 0px;
-  left: 0px;
-  right: 10px;
-  border-radius: 50%;
-  border: 4px dotted var(--primary-color);
-} */
 
 .flex {
   display: flex;
@@ -177,11 +167,9 @@
 
 .intro-Profile {
   display: grid;
-  /* grid-template-columns: repeat(2, 1fr); */
+
   grid-template-columns: 2fr 0.1fr 2fr;
-  /* row-gap: 20px; */
-  /* column-gap: 20px; */
-  /* column-gap: 10px; */
+
   padding: 30px;
 }
 
@@ -189,6 +177,7 @@
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 20px;
+  position: relative;
 }
 
 .intro--2 {
